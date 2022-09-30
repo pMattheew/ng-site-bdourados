@@ -3,9 +3,19 @@ module.exports = {
   content: [
     "./src/app/app.component.html",
     "./src/app/app.component.css",
+    "./src/app/nav-bar/nav-bar.component.html",
+    "./src/app/nav-bar/nav-bar.component.css",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#e8ae4a',
+      },
+      fontFamily: {
+        title: 'Poppins, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
+        body: 'Monsterrat, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;'
+      }
+    },
   },
   plugins: [],
 }
