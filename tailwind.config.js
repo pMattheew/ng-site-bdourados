@@ -3,8 +3,12 @@ module.exports = {
   content: [
     "./src/app/app.component.html",
     "./src/app/app.component.css",
-    "./src/app/nav-bar/nav-bar.component.html",
-    "./src/app/nav-bar/nav-bar.component.css",
+    "./src/app/components/nav-bar/nav-bar.component.html",
+    "./src/app/components/nav-bar/nav-bar.component.css",
+    "./src/app/components/banner/banner.component.html",
+    "./src/app/components/banner/banner.component.css",
+    "./src/app/pages/home/home.component.html",
+    "./src/app/pages/home/home.component.css",
   ],
   theme: {
     extend: {
