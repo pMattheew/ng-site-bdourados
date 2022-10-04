@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
+    "./src/styles.css",
     "./src/app/app.component.html",
     "./src/app/app.component.css",
     "./src/app/components/nav-bar/nav-bar.component.html",
@@ -23,7 +24,7 @@ module.exports = {
       },
       fontFamily: {
         title: 'Poppins, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
-        body: 'Monsterrat, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;'
+        body: 'Montserrat, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;'
       }
     },
   },
