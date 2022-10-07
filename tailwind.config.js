@@ -24,7 +24,11 @@ module.exports = {
       },
       fontFamily: {
         title: 'Poppins, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
-        body: 'Montserrat, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;'
+        body: 'Montserrat, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;',
+        logo: 'Yellowtail'
+      },
+      rotate: {
+        '2.5': '2.5deg'
       }
     },
   },

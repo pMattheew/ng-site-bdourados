@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.shadow-logo
+{
+  text-shadow:
+    5px 0 0 #000, -5px 0 0 #000,
+    0 5px 0 #000, 0 -5px 0 #000,
+    4px 4px #000, -4px -4px 0 #000,
+    4px -4px 0 #000, -4px 4px 0 #000;
+}
